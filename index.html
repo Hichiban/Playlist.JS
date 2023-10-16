@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Playlist">
+    <meta name="keywords" content="Songs, Playlists, Musics">
+    <meta name="author" content="Gabriel Alexsander">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playlist</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/190282eb74.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="circle-list">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <img src="/img/bubblegum.jpeg" alt="music">
+            <h3>Bubble gum</h3>
+            <p>Clairo</p>
+            <audio id="song"> 
+                <source src="musics/Bubble Gum.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0"  id="progress">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div onclick="playPause()" class="circle">
+                    <i class="fa-solid fa-play" id="ctrlicon"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
