@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/space.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.music-player{
+    background: rgb(35,5,115);
+    border-radius: 40px;
+    background: linear-gradient(270deg, rgba(35,5,115,1) 20%, rgba(41,0,82,1) 100%);
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: px;
+    background: #fff;
+    color: #a410df;
+    box-shadow: 0.1px 0.1px 9px 8px #69666794;
+}
+
+img{
+    margin-bottom: 10px;
+    border-radius: 200px;
+    box-shadow: 1px 1px 15px 7px rgb(103, 21, 211); 
+}
+
+h3{
+    font-size: 25px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    margin-left: 60px;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+}
+
+p{
+    font-size: 20px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -163px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 1px;
+    background: #fff;
+    color: #a410df;
+    box-shadow: 0.1px 0.1px 9px 8px #69666794;
+}
+
+.circle-list{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: px;
+    background: #fff;
+    color: #a410df;
+    box-shadow: 0.1px 0.1px 9px 8px #69666794;
+    margin-left: 87%;
+    margin-top: -39.5px;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(99, 1, 190);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0.1px 0.1px 9px 8px #541eb894;
+}
